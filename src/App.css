@@ -1,12 +1,8 @@
 .App {
   text-align: center;
+
 }
 
-.search {
-  width: 500px;
-  border: 1px solid red;
-  justify-content: center;
-}
 .menu {
   display: flex;
   justify-content: center;
