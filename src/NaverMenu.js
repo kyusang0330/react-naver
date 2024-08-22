@@ -1,8 +1,9 @@
 import React from 'react';
+import {NaverMenuContainer} from "./styles/navermenu_styled";
 
 const NaverMenu = () => {
     return (
-        <div className="menu">
+        <NaverMenuContainer>
             <div className="mail">메일</div>
             <div className="cafe">카페</div>
             <div className="blog">블로그</div>
@@ -13,7 +14,7 @@ const NaverMenu = () => {
             <div className="map">지도</div>
             <div className="webtoon">웹툰</div>
             <div className="chi">치지직</div>
-        </div>
+        </NaverMenuContainer>
     )
 }
 
