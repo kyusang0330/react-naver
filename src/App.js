@@ -1,15 +1,9 @@
 import React from 'react';
-import './App.css';
-import NaverMenu from "./NaverMenu";
-import NaverSearch from "./NaverSearch";
+import Layout from "./Layout";
 
 function App() {
   return (
-    <div className="App">
-        <NaverSearch />
-        <NaverMenu />
-
-    </div>
+    <Layout />
   );
 }
 
