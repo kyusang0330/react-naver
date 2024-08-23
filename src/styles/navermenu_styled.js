@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 const NaverMenuContainer = styled.div`
-    border : 1px solid black;
+    display: flex;
+    justify-content: center;
+    border : 2px solid black;
 
 `;
 
+
 export {
-    NaverMenuContainer
+    NaverMenuContainer,
+
 }
