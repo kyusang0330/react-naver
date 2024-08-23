@@ -1,7 +1,7 @@
 import React from 'react';
-import NaverSearch from "../NaverSearch";
-import NaverMenu from "../NaverMenu";
-import NaverLogin from "../NaverLogin";
+import NaverSearch from "../components/NaverSearch";
+import NaverMenu from "../components/NaverMenu";
+import NaverLogin from "../components/NaverLogin";
 import {LayoutContainer} from "../styles/layout_styled";
 
 const Layout = () => {
