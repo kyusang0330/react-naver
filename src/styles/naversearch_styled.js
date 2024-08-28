@@ -21,6 +21,7 @@ const NaverSearchKey = styled.input`
     padding: 17px;
     position: relative;
     z-index: 10;
+    border: none;
 `;
 
 export {
