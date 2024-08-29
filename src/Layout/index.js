@@ -2,7 +2,8 @@ import React from 'react';
 import NaverSearch from "../components/NaverSearch";
 import NaverMenu from "../components/NaverMenu";
 import NaverLogin from "../components/NaverLogin";
-import {LayoutContainer} from "../styles/layout_styled";
+import {LayoutContainer,
+    LayoutMiddle,} from "../styles/layout_styled";
 
 const Layout = () => {
 
@@ -10,10 +11,10 @@ const Layout = () => {
         <LayoutContainer>
             <NaverSearch/>
             <NaverMenu/>
-            <div>
-                <div></div>
+            <LayoutMiddle>
+                <div>news</div>
                 <div><NaverLogin /></div>
-            </div>
+            </LayoutMiddle>
         </LayoutContainer>
     );
 }
