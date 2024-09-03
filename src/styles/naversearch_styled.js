@@ -25,8 +25,18 @@ const NaverSearchKey = styled.input`
 `;
 
 const NaverLogo = styled.svg`
-width: 24px;
+    width: 24px;
     height: 24px;
+    fill: #03c75a;
+`;
+
+const NaverSearchButton = styled.button`
+    border: none;
+    background-color: white;
+`;
+const NaverSearchButtonSvg = styled.svg`
+    width: 25px;
+    height: 25px;
     fill: #03c75a;
 `;
 
@@ -35,4 +45,6 @@ export {
     Main,
     NaverSearchKey,
     NaverLogo,
+    NaverSearchButton,
+    NaverSearchButtonSvg,
 };
