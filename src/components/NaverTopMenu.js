@@ -1,6 +1,8 @@
 import React from 'react';
 import {
     NaverTopMenuContainer,
+    NaverLeftMenu,
+    NaverRightMenu,
     First,
     NaverPay,
     NaverTalk,
@@ -13,12 +15,17 @@ const NaverTopMenu = () => {
 
     return (
         <NaverTopMenuContainer>
-            <First></First>
-            <NaverPay></NaverPay>
-            <NaverTalk></NaverTalk>
-            <NaverAlarm></NaverAlarm>
-            <NaverBasket></NaverBasket>
+            <NaverLeftMenu>
+                <div><First></First></div>
+                <div><NaverPay></NaverPay></div>
+            </NaverLeftMenu>
+            <NaverRightMenu>
+                <div><NaverTalk></NaverTalk></div>
+                <div><NaverAlarm></NaverAlarm></div>
+                <div><NaverBasket></NaverBasket></div>
+            </NaverRightMenu>
         </NaverTopMenuContainer>
+
     );
 };
 
