@@ -2,13 +2,14 @@ import styled from "styled-components";
 import MainImg from "../assets/images/sp_main.3e7d337e.png";
 const NaverTopMenuContainer = styled.div`
     display: flex;
+    justify-content: space-between;
+
 `;
 const NaverLeftMenu=styled.div`
     display: flex;
 `;
 const NaverRightMenu=styled.div`
     display: flex;
-    justify-content: end;
 `;
 const First = styled.div`
     display: block;
