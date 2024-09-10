@@ -10,7 +10,7 @@ const Layout = () => {
         <LayoutContainer>
             <NaverTop />
             <LayoutMiddle>
-                <div>news</div>
+                <div>Big Div</div>
                 <div><NaverLogin /></div>
             </LayoutMiddle>
         </LayoutContainer>
