@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const NaverSearchContainer = styled.div`
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     padding: 10px;
 `;
 

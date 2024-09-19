@@ -6,7 +6,7 @@ const LayoutContainer = styled.div`
 `;
 
 const LayoutMiddle = styled.div`
-display: flex
+    display: flex
 `;
 
 export {
