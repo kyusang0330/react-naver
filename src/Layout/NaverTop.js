@@ -7,7 +7,7 @@ import {NaverTopContainer} from "../styles/navertop_styled";
 const NaverTop = () => {
     return (
         <NaverTopContainer>
-            <NaverTopMenu />
+            <NaverTopMenu/>
             <NaverSearch/>
             <NaverMenu/>
         </NaverTopContainer>
