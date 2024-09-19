@@ -1,17 +1,19 @@
 import React from 'react';
 import NaverTop from "./NaverTop";
 import NaverLogin from "../components/NaverLogin";
-import {LayoutContainer,
-    LayoutMiddle,} from "../styles/layout_styled";
+import {
+    LayoutContainer,
+    LayoutMiddle,
+} from "../styles/layout_styled";
 
 const Layout = () => {
 
     return (
         <LayoutContainer>
-            <NaverTop />
+            <NaverTop/>
             <LayoutMiddle>
                 <div>Big Div</div>
-                <div><NaverLogin /></div>
+                <div><NaverLogin/></div>
             </LayoutMiddle>
         </LayoutContainer>
     );
